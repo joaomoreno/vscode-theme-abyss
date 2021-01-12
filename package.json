@@ -1,19 +1,29 @@
 {
-	"name": "theme-abyss",
-	"displayName": "%displayName%",
-	"description": "%description%",
-	"version": "1.0.0",
-	"publisher": "vscode",
-	"license": "MIT",
-	"engines": { "vscode": "*" },
-	"contributes": {
-		"themes": [
-			{
-				"id": "Abyss",
-				"label": "%themeLabel%",
-				"uiTheme": "vs-dark",
-				"path": "./themes/abyss-color-theme.json"
-			}
-		]
-	}
+  "name": "theme-abyss",
+  "displayName": "%displayName%",
+  "description": "%description%",
+  "version": "1.0.0",
+  "publisher": "vscode",
+  "license": "MIT",
+  "homepage": "https://code.visualstudio.com/",
+  "bugs": {
+    "url": "https://github.com/microsoft/vscode-theme-abyss/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/microsoft/vscode-theme-abyss.git"
+  },
+  "engines": {
+    "vscode": "*"
+  },
+  "contributes": {
+    "themes": [
+      {
+        "id": "Abyss",
+        "label": "%themeLabel%",
+        "uiTheme": "vs-dark",
+        "path": "./themes/abyss-color-theme.json"
+      }
+    ]
+  }
 }
